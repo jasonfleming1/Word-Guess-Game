@@ -1,0 +1,42 @@
+TIPS
+
+Code game one piece at a time
+pseudocode the program into tiny fragments
+treat large problem as a set of smaller ones
+console.log
+
+GAME REQUIREMENTS
+
+» basics
+
+1. watch demo
+2. choose theme
+3. choose questions
+4. choose sounds
+    a. BONUS: design it like your theme
+5. choose aesthetic
+
+» display requirements
+
+1. press any key to get started
+2. wins = number of words successfully guessed
+    a. display "_ _ _ _ _ _" when game begins
+    b. as progresses "s _ o o _ _" 
+3. number of guesses remaining
+4. letters guessed (display values)
+5. show game result
+    a. wins = congrats.message + load a new random word
+        a1. BONUS: win + sound
+    b. loss = fail.message + load a new random word
+
+SUPER BONUS
+    a. put all game code into an object
+        a1. except for key events
+    b. save game and properties in an object
+    c. save any functions as methods and call them under you r object declaration with listeners
+
+REMINDERS
+
+1. Global Variables
+2. Objects
+3. Calls

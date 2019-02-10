@@ -1,14 +1,72 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Scooby Doo Word Guess</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../Word-Guess-Game/assets/css/style.css">
 </head>
+
 <body>
-    
+
+    <!--Begin Game Header-->
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="display-1">Title Placeholder </h1>
+            <p class="lead">press any key to get started!</p>
+        </div>
+
+        <!--End Game Header-->
+
+        <!--start Game Play Space-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>placeholder for word to guess <span id="mysteryWord"></span></p>
+            </div>
+            <hr>
+        <div class="row"></div>
+            <div class="col-md-12">
+                <p>placeholder for incorrect guesses <span id="badGuess"></span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>placeholder for remaining guesses <span id="remainingGuess"></span></p>
+            </div>
+        </div>
+
+        <!--End Game Play Space-->
+
+        <!--Begin Stats Space-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" style="width: 24rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Win Counter</h5>
+                        <p class="card-text"> <span id="countWins"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--end  Stats Space-->
+
+    <!--Begin JavaScript Reference-->
+
+    <script src="../Word-Guess-Game/assets/javascript/game.js"></script>
+
+    <!--End JavaScript Reference-->
+
 </body>
+
 </html>
