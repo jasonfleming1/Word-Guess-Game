@@ -1,5 +1,3 @@
-//tscooby=doo word guess
-
 //the game requirements
 
     //1. select a random word for the player
@@ -55,7 +53,7 @@
 
     // game code
     
-    // if var.counterChances < 10 {}
+    // while var.counterChances < 10 {}
         //THENDO onkeyup(event) 
             //if {}
                 //var.guess isin var.rightGuess OR var.wrongGuess
